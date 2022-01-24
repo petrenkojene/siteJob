@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "HarmonyOS Sans";
+    src:  url("../fonts/HarmonyOS_Sans_Regular.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body{
+    max-width: 100%;
+
+}
+@import "_header";
+@import "_mainMenu";
+@import "_footer";

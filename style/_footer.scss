@@ -1,0 +1,30 @@
+.footer {
+  padding: 0px 135px;
+  background-color: rgb(14, 16, 20);
+  display: flex;
+  justify-content: space-around;
+  .footer_footer {
+    width: 100%;
+    display: flex;
+  justify-content: space-around;
+  padding: 80px 12px;
+
+    img {
+      width: 150px;
+      height: 36px;
+    }
+  }
+   .footer_par{
+       color:white;
+       font-size: 20px;
+   }
+   .footer_ul{
+       list-style: none;
+       padding: 0px;
+       
+       .footer_link{
+        color:#909090;
+        text-decoration: none;
+       }
+   }
+}
