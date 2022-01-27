@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +19,7 @@
   <body>
     <div class="wrapper">
       <div class="header">
-        <header class="mainPage">
+        <header class="header_anoterCript">
           <div class="header_left_menu">
             <a href="../index.html">
             <img
@@ -61,10 +64,11 @@
           <input type="tel" name="tel" id="tel" placeholder="Email/телефон" />
           <button class="header_button">Начать</button>
         </form>
+        <p class="header_p_12">
+          Получите до $10 после первой покупки криптовалюты на $100 или больше.
+        </p>
       </div>
-      <p class="header_p_12">
-        Получите до $10 после первой покупки криптовалюты на $100 или больше.
-      </p>
+      
     </div>
     <div class="mainMenu">
       <!-- <div class="mainMenu_list_main">
@@ -95,7 +99,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>
+            <td class ="tabl_descript">
               <a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/btc.png?x-oss-process=image/format,webp"
@@ -105,12 +109,12 @@
               >
             </td>
             <td class="BTC_price price"></td>
-            <td class="BTC_price_change"></td>
+            <td class="BTC_price_change change"></td>
             <td><img class="diagram_BTC" src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1643103600" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td>
+            <td class ="tabl_descript">
                 <a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/eth.png?x-oss-process=image/format,webp"
@@ -121,12 +125,12 @@
             </td>
             </td>
             <td class="ETH_price price"></td>
-            <td class="ETH_price_change"></td>
+            <td class="ETH_price_change change"></td>
             <td><img class="diagram_ETH" src="https://images.cryptocompare.com/sparkchart/ETH/USD/latest.png?ts=1643103600" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td>
+            <td class ="tabl_descript">
                 <a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/okb.png?x-oss-process=image/format,webp"
@@ -135,12 +139,12 @@
                 <span class="table_span"> OKB</span> OKB</a
               ></td>
             <td class="OKB_price price"></td>
-            <td class="OKB_price_change"></td>
+            <td class="OKB_price_change change"></td>
             <td><img class="diagram_OKB" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td><a href="#" class="table_link"
+            <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/okt.png?x-oss-process=image/format,webp"
                   alt=""
@@ -148,12 +152,12 @@
                 <span class="table_span"> OKT</span> Токен OEC</a
               ></td>
             <td class="OKT_price price"></td>
-            <td class="OKT_price_change"></td>
+            <td class="OKT_price_change change"></td>
             <td><img class="diagram_OKT" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td><a href="#" class="table_link"
+            <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/ltc.png?x-oss-process=image/format,webp"
                   alt=""
@@ -161,12 +165,12 @@
                 <span class="table_span"> LTC</span> Litecoin</a
               ></td>
             <td class="LTC_price price"></td>
-            <td class="LTC_price_change"></td>
+            <td class="LTC_price_change change"></td>
             <td><img class="diagram_LTC" src="https://images.cryptocompare.com/sparkchart/LTC/USD/latest.png?ts=1643106000" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td><a href="#" class="table_link"
+            <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/dot.png?x-oss-process=image/format,webp"
                   alt=""
@@ -174,12 +178,12 @@
                 <span class="table_span"> DOT</span>Polkadot</a
               ></td>
             <td class="DOT_price price"></td>
-            <td class="DOT_price_change"></td>
+            <td class="DOT_price_change change"></td>
             <td><img class="diagram_DOT" src="https://images.cryptocompare.com/sparkchart/DOT/USD/latest.png?ts=1643106000" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
-            <td><a href="#" class="table_link"
+            <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/ada.png?x-oss-process=image/format,webp"
                   alt=""
@@ -187,15 +191,15 @@
                 <span class="table_span"> ADA</span> Cordana</a
               ></td>
             <td class="ADA_price price"></td>
-            <td class="ADA_price_change"></td>
+            <td class="ADA_price_change change"></td>
             <td><img class="diagram_ADA" src="https://images.cryptocompare.com/sparkchart/ADA/USD/latest.png?ts=1643106000" alt=""></td>
-            <td><button>Купить</button></td>
+            <td class="tabl_bay"><button>Купить</button></td>
           </tr>
         </tbody>
       </table>
       <a class="link_after_table" href="./pages/anotherCript.html">Посмотреть цены на другие популярные криптовалюты ></a>
       <div class="mainManu_description">
-        <h2>Лидер по количеству торговых пар и <br>
+        <h2 class="after_tabl">Лидер по количеству торговых пар и <br>
             возможностям для трейдеров со всего мира      
     </h2>
     <p class="mainManu_description_p">С более чем 20 миллионами трейдов в 200+ странах мы  являемся самой надёжной биржей криптовалют в мире для покупки BTC, ETH, USDT, XRP <br>
@@ -228,7 +232,7 @@
     <div class="footer">
         <footer class="footer_footer">
 <div class="footer_translate">
-    <img src="img/white.png" alt="">
+    <img src="img/color.png" alt="">
 </div>
 <div class="footer_comany">
     <p class="footer_par">

@@ -1,17 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("../fonts/HarmonyOS_Sans_Regular.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal;
-}
-body {
-  max-width: 100%;
-  margin: 0px;
-}
-
 .wrapper {
-  padding: 30px;
   max-width: 100%;
   text-align: center;
   background: linear-gradient(to right, #6280f8 10%, #1232af 90%);
@@ -23,14 +11,8 @@ body {
   background-color: #082850;
 }
 
+.header_anoterCript,
 .mainPage {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 20px 15px 20px;
-}
-
-.header_anoterCript {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,8 +24,9 @@ body {
   align-items: center;
 }
 .header_left_menu img {
-  width: 150px;
-  height: 30px;
+  width: 80px;
+  height: 15px;
+  margin: 0px 140px 0px 0px;
 }
 
 .header_ul {
@@ -58,26 +41,31 @@ body {
 }
 .header_ul .header_list_link1 {
   text-decoration: none;
+  font-size: 14px;
   color: white;
 }
 
 .header_h2 {
   color: white;
-  line-height: 32px;
-  font-size: 28px;
+  line-height: 46px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 60px;
 }
 
 .header_p {
   color: white;
+  margin-bottom: 60px;
 }
 
 #tel {
-  font-size: 16px;
+  font-size: 14px;
   padding: 0px 20px;
   height: 50px;
-  width: 400px;
+  width: 300px;
   border-radius: 5px;
   border: none;
+  margin-bottom: 30px;
 }
 
 .header_button {
@@ -92,6 +80,7 @@ body {
 .header_p_12 {
   font-size: 12px;
   color: white;
+  padding-bottom: 80px;
 }
 
 .mainMenu {
@@ -110,7 +99,7 @@ body {
   font-weight: bold;
 }
 .mainMenu .table-hover {
-  max-width: 1016px;
+  max-width: 1140px;
 }
 .mainMenu .table-hover .price {
   font-weight: bold;
@@ -144,11 +133,25 @@ body {
   color: blue;
   font-weight: 600;
 }
+.mainMenu .change {
+  width: 182px;
+}
+.mainMenu .tabl_descript {
+  width: 530px;
+}
+.mainMenu .tabl_bay {
+  width: 100px;
+}
+.mainMenu .after_tabl {
+  font-weight: 900;
+  font-size: 38px;
+}
 .mainMenu .mainManu_description {
   text-align: center;
   margin-top: 120px;
 }
 .mainMenu .mainManu_description_p {
+  font-size: 14px;
   color: grey;
 }
 .mainMenu .mainMenu_coins {
@@ -162,8 +165,8 @@ body {
 }
 .mainMenu .mainMenu_coins .coins .coins_span_blue {
   color: blue;
-  font-size: 32px;
-  line-height: 12px;
+  font-size: 36px;
+  line-height: 28px;
   font-weight: bold;
 }
 .mainMenu .mainMenu_coins .coins .coins_span_blue .coins_span {
@@ -187,12 +190,16 @@ body {
   font-size: 16px;
   padding: 0px 20px;
   height: 50px;
-  width: 400px;
+  width: 300px;
   border-radius: 5px;
   border: none;
 }
 .mainMenu .mainMenu_footer_link {
   color: black;
+}
+.mainMenu .main_footer_h2 {
+  font-weight: 900;
+  font-size: 38px;
 }
 
 .footer {
@@ -208,8 +215,8 @@ body {
   padding: 80px 12px;
 }
 .footer .footer_footer img {
-  width: 150px;
-  height: 30px;
+  width: 80px;
+  height: 15px;
 }
 .footer .footer_par {
   color: white;
@@ -627,4 +634,16 @@ body {
 
 .support_p {
   margin: 0px;
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  src: url("../fonts/HarmonyOS_Sans_Regular.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  max-width: 100%;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
 }

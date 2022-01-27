@@ -1,3 +1,10 @@
+@import "_header";
+@import "_mainMenu";
+@import "_footer";
+@import "_anoterCript";
+@import "_createAcount";
+@import '_bayCript';
+@import "_support";
 @font-face {
     font-family: "HarmonyOS Sans";
     src:  url("../fonts/HarmonyOS_Sans_Regular.ttf") format("truetype");
@@ -8,12 +15,6 @@
 body{
     max-width: 100%;
     margin: 0px;
+    font-family: 'Rubik', sans-serif;
 
 }
-@import "_header";
-@import "_mainMenu";
-@import "_footer";
-@import "_anoterCript";
-@import "_createAcount";
-@import '_bayCript';
-@import "_support";
