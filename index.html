@@ -16,31 +16,33 @@
   <body>
     <div class="wrapper">
       <div class="header">
-        <header>
+        <header class="mainPage">
           <div class="header_left_menu">
+            <a href="../index.html">
             <img
-              src="img/kokex.png"
+              src="img/header1.png"
               alt=""
             />
+          </a>
             <ul class="header_ul">
               <li class="header_list">
-                <a href="#" class="header_list_link1">Купить криптовалюту</a>
+                <a href="../pages/bayCript.html" class="header_list_link1">Купить криптовалюту</a>
               </li>
               <li class="header_list">
                 <a href="#" class="header_list_link1">Рынки</a>
               </li>
               <li class="header_list">
-                <a href="#" class="header_list_link1">Поддержка</a>
+                <a href="../pages/support.html" class="header_list_link1">Поддержка</a>
               </li>
             </ul>
           </div>
           <div class="header_right_menu">
             <ul class="header_ul">
               <li class="header_list">
-                <a href="#" class="header_list_link1">Войти</a>
+                <a href="../pages/enterPage.html" class="header_list_link1">Войти</a>
               </li>
               <li class="header_list">
-                <a href="#" class="header_list_link1">Создать аккаунт</a>
+                <a href="../pages/createAcount.html" class="header_list_link1 createAcount">Создать аккаунт</a>
               </li>
             </ul>
           </div>
@@ -65,7 +67,7 @@
       </p>
     </div>
     <div class="mainMenu">
-      <div class="mainMenu_list_main">
+      <!-- <div class="mainMenu_list_main">
         <ul class="header_ul">
           <li class="mainMenu_list">
             <a class="mainMenu_list_link" href="#">Популярное</a>
@@ -80,7 +82,7 @@
             <a class="mainMenu_list_link" href="#">Макс. объём</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <table class="table table-hover">
         <thead>
           <tr>
@@ -102,9 +104,9 @@
                 <span class="table_span"> BTC</span> Биткоин</a
               >
             </td>
-            <td class="BTC_price price">Otto</td>
-            <td>@mdo</td>
-            <td>@mdo</td>
+            <td class="BTC_price price"></td>
+            <td class="BTC_price_change"></td>
+            <td><img class="diagram_BTC" src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1643103600" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -118,9 +120,9 @@
               >
             </td>
             </td>
-            <td class="ETH_price price">Thornton</td>
-            <td>@fat</td>
-            <td>@fat</td>
+            <td class="ETH_price price"></td>
+            <td class="ETH_price_change"></td>
+            <td><img class="diagram_ETH" src="https://images.cryptocompare.com/sparkchart/ETH/USD/latest.png?ts=1643103600" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -132,9 +134,9 @@
                 />
                 <span class="table_span"> OKB</span> OKB</a
               ></td>
-            <td class="OKB_price price">@twitter</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
+            <td class="OKB_price price"></td>
+            <td class="OKB_price_change"></td>
+            <td><img class="diagram_OKB" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -145,9 +147,9 @@
                 />
                 <span class="table_span"> OKT</span> Токен OEC</a
               ></td>
-            <td class="OKT_price price">@twitter</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
+            <td class="OKT_price price"></td>
+            <td class="OKT_price_change"></td>
+            <td><img class="diagram_OKT" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -158,9 +160,9 @@
                 />
                 <span class="table_span"> LTC</span> Litecoin</a
               ></td>
-            <td class="LTC_price price">@twitter</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
+            <td class="LTC_price price"></td>
+            <td class="LTC_price_change"></td>
+            <td><img class="diagram_LTC" src="https://images.cryptocompare.com/sparkchart/LTC/USD/latest.png?ts=1643106000" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -171,9 +173,9 @@
                 />
                 <span class="table_span"> DOT</span>Polkadot</a
               ></td>
-            <td class="DOT_price price">@twitter</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
+            <td class="DOT_price price"></td>
+            <td class="DOT_price_change"></td>
+            <td><img class="diagram_DOT" src="https://images.cryptocompare.com/sparkchart/DOT/USD/latest.png?ts=1643106000" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
           <tr>
@@ -184,14 +186,14 @@
                 />
                 <span class="table_span"> ADA</span> Cordana</a
               ></td>
-            <td class="ADA_price price">@twitter</td>
-            <td>@twitter</td>
-            <td>@twitter</td>
+            <td class="ADA_price price"></td>
+            <td class="ADA_price_change"></td>
+            <td><img class="diagram_ADA" src="https://images.cryptocompare.com/sparkchart/ADA/USD/latest.png?ts=1643106000" alt=""></td>
             <td><button>Купить</button></td>
           </tr>
         </tbody>
       </table>
-      <a class="link_after_table" href="#">Посмотреть цены на другие популярные криптовалюты ></a>
+      <a class="link_after_table" href="./pages/anotherCript.html">Посмотреть цены на другие популярные криптовалюты ></a>
       <div class="mainManu_description">
         <h2>Лидер по количеству торговых пар и <br>
             возможностям для трейдеров со всего мира      
@@ -218,7 +220,7 @@
         <form action="" class="header_form_form">
           <input type="tel" name="tel" id="tel" placeholder="Email/телефон" />
           <button class="header_button">Начать</button>
-          <p class="mainMenu_footer_p">Уже есть аккаунт? <a  class= "mainMenu_footer_link"href="">Войти</a></p>
+          <p class="mainMenu_footer_p">Уже есть аккаунт? <a  class= "mainMenu_footer_link" href="/pages/enterPage.html">Войти</a></p>
         </form>
       </div>
 </div>
@@ -226,7 +228,7 @@
     <div class="footer">
         <footer class="footer_footer">
 <div class="footer_translate">
-    <img src="img/kokex.png" alt="">
+    <img src="img/white.png" alt="">
 </div>
 <div class="footer_comany">
     <p class="footer_par">
