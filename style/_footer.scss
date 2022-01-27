@@ -15,6 +15,12 @@
       height: 15px;
     }
   }
+  @media(max-width:407px){
+    .footer_footer{
+      text-align: center;
+      flex-direction: column;
+    }
+  }
    .footer_par{
        color:white;
        font-size: 20px;
