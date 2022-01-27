@@ -16,10 +16,19 @@
     }
 }
 .table-hover{
+
     max-width: 1140px;
     .price{
         font-weight: bold;
     }
+    @media(max-width:375px){
+        .price{
+        font-size: 12px;
+        padding: 0px;
+        width: 75px;
+    }
+}
+    
     img{
         width: 28px;
         flex: 0 1 80%;
@@ -37,6 +46,18 @@
         }
     }
 }
+@media(max-width:884px){
+    .table{
+        padding: 0px 20px;
+        
+    }
+    .price{
+        font-size: 14px;
+    }
+}
+.column_table{
+    display: flex;
+}
 .table_link{
     color:grey;
     text-decoration: none;
@@ -46,9 +67,20 @@
     font-weight: bolder;
 }
 .link_after_table{
+    flex:0 1 100%;
     text-decoration:  none;
     color:blue;
     font-weight: 600;
+}
+@media(max-width:507px){
+    .link_after_table{
+        font-size: 12px;
+    } 
+}
+@media(max-width:350px){
+    .link_after_table{
+        font-size: 10px;
+    } 
 }
 .change{
     width: 182px;
@@ -63,6 +95,16 @@
     font-weight: 900;
     font-size: 38px;
 }
+@media(max-width:507px){
+    .hide{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .hide_price{
+        display: none;
+    }
+}
 .mainManu_description{
     text-align: center;
     margin-top: 120px;
@@ -71,11 +113,17 @@
     font-size: 14px;
     color: grey;
 }
+@media(max-width:450px){
+    .mainManu_description_p{
+        padding: 0px 20px;
+    }
+}
 .mainMenu_coins{
     display: flex;
     width: 100%;
     padding: 0px 135px;
     justify-content: space-around;
+    flex-wrap: wrap;
 .coins{
     text-align: center;
     .coins_span_blue{
@@ -90,6 +138,12 @@
    
 }
 }
+@media(max-width: 900px){
+.coins{
+margin: 15px;
+    }
+}
+
 }
 .mainMenu_footer{
     width: 100%;
@@ -103,6 +157,12 @@
         color:blue;
         font-size: 28px;
     }
+
+}
+@media(max-width:884px){
+    .mainMenu_footer{
+        padding: 0px 20px;
+    } 
 }
 .header_form_form{
 #tel{

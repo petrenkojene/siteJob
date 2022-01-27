@@ -39,13 +39,17 @@
         color:blue;
         font-weight: 600;
     }
-    .form_create_acount{
+    .form_create_acount1{
         border: none;
         width: 350px;
         height: 40px;
         border-radius: 5px;
-        color:gray;
+       
         font-weight: 600;
+        a{
+        text-decoration: none;
+        color:gray;
+        }
     }
     .form_description_line{
         display: flex;

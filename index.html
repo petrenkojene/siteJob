@@ -13,7 +13,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>SHOP</title>
   </head>
   <body>
@@ -92,8 +92,8 @@
           <tr>
             <th scope="col">Название</th>
             <th scope="col">Цена</th>
-            <th scope="col">Изм. (сегодня)</th>
-            <th scope="col">График</th>
+            <th scope="col" class="hide_price">Изм. (сегодня)</th>
+            <th scope="col" class="hide">График</th>
             <th scope="col">К торгам</th>
           </tr>
         </thead>
@@ -109,8 +109,8 @@
               >
             </td>
             <td class="BTC_price price"></td>
-            <td class="BTC_price_change change"></td>
-            <td><img class="diagram_BTC" src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1643103600" alt=""></td>
+            <td class="BTC_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_BTC" src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1643103600" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -125,8 +125,8 @@
             </td>
             </td>
             <td class="ETH_price price"></td>
-            <td class="ETH_price_change change"></td>
-            <td><img class="diagram_ETH" src="https://images.cryptocompare.com/sparkchart/ETH/USD/latest.png?ts=1643103600" alt=""></td>
+            <td class="ETH_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_ETH" src="https://images.cryptocompare.com/sparkchart/ETH/USD/latest.png?ts=1643103600" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -139,8 +139,8 @@
                 <span class="table_span"> OKB</span> OKB</a
               ></td>
             <td class="OKB_price price"></td>
-            <td class="OKB_price_change change"></td>
-            <td><img class="diagram_OKB" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
+            <td class="OKB_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_OKB" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -152,8 +152,8 @@
                 <span class="table_span"> OKT</span> Токен OEC</a
               ></td>
             <td class="OKT_price price"></td>
-            <td class="OKT_price_change change"></td>
-            <td><img class="diagram_OKT" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
+            <td class="OKT_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_OKT" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -165,8 +165,8 @@
                 <span class="table_span"> LTC</span> Litecoin</a
               ></td>
             <td class="LTC_price price"></td>
-            <td class="LTC_price_change change"></td>
-            <td><img class="diagram_LTC" src="https://images.cryptocompare.com/sparkchart/LTC/USD/latest.png?ts=1643106000" alt=""></td>
+            <td class="LTC_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_LTC" src="https://images.cryptocompare.com/sparkchart/LTC/USD/latest.png?ts=1643106000" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -178,8 +178,8 @@
                 <span class="table_span"> DOT</span>Polkadot</a
               ></td>
             <td class="DOT_price price"></td>
-            <td class="DOT_price_change change"></td>
-            <td><img class="diagram_DOT" src="https://images.cryptocompare.com/sparkchart/DOT/USD/latest.png?ts=1643106000" alt=""></td>
+            <td class="DOT_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_DOT" src="https://images.cryptocompare.com/sparkchart/DOT/USD/latest.png?ts=1643106000" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
           <tr>
@@ -191,8 +191,8 @@
                 <span class="table_span"> ADA</span> Cordana</a
               ></td>
             <td class="ADA_price price"></td>
-            <td class="ADA_price_change change"></td>
-            <td><img class="diagram_ADA" src="https://images.cryptocompare.com/sparkchart/ADA/USD/latest.png?ts=1643106000" alt=""></td>
+            <td class="ADA_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_ADA" src="https://images.cryptocompare.com/sparkchart/ADA/USD/latest.png?ts=1643106000" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
         </tbody>

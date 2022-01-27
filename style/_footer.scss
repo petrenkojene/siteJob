@@ -8,6 +8,7 @@
     display: flex;
   justify-content: space-around;
   padding: 80px 12px;
+  flex-wrap: wrap;
 
     img {
       width: 80px;
@@ -28,4 +29,9 @@
         text-decoration: none;
        }
    }
+}
+@media(max-width:972px){
+  .footer{
+    padding: 0px 30px;
+  }
 }

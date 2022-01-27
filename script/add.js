@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
       .then((response) => response.json())
       .then(function (json) {
         product = json;
-        console.log(product);
+        // console.log(product);
         // PRICE
         document.querySelector(".BTC_price").innerHTML =
           product.DISPLAY.BTC.USD.PRICE;

@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
   //       table.style.position = "relative";
   //     }
   //   });
-  // setInterval(setApi);
+  setInterval(setApi);
   function setApi() {
     fetch(
       "https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,OKB,OKT,LTC,DOT,ADA,SOL,XRP,LUNA,USDT,DOGE,SHIB,UST,MATIC,ATOM,CRO,NEAR,Link,BCH,&tsyms=USD,EUR,BRL,ARS,CLP,PEN,COP,CZK,PLN,HUF,RON,TRY&api_key=f55786242b1b8e1eea9e875db5135df7f7b5c806c2be36bf3a7161337ed2641b"
@@ -41,7 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
       .then((response) => response.json())
       .then(function (json) {
         product = json;
-        console.log(product);
+        // console.log(product);
         // PRICE
         capitalization(".BTC_price", product.DISPLAY.BTC.USD.PRICE);
         capitalization(".ETH_price", product.DISPLAY.ETH.USD.PRICE);
@@ -127,5 +127,5 @@ window.addEventListener("DOMContentLoaded", () => {
         capitalization(".capitaliz_BCH", product.DISPLAY.BCH.USD.MKTCAP);
       });
   }
-  setApi();
+  // setApi();
 });
