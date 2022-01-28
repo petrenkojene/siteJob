@@ -1,74 +1,97 @@
 .modal_support {
+  width: 100%;
   max-width: 416px;
 
-  margin: 0px 551px 80px 551px;
+  // margin: 0px 551px 80px 551px;
   padding: 40px 30px;
   display: flex;
   justify-content: center;
-  // margin: 0 auto;
+  margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
   border-radius: 5px;
 }
+.support_form{
+  display: flex;
+  flex-direction: column;
+
+}
+@media(max-width:475px){
+  .support_form{
+    justify-content: center;
+    align-items:center;
+  }
+}
+@media(max-width:350px){
+  .support_form{
+    justify-content: center;
+    align-items:center;
+    width: 230px;
+  }
+}
+
 .support {
   text-align: center;
 }
-.form_input {
+.form_input_support {
   border: 1px solid #e9ebf2;
   display: flex;
   margin: 15px 0px;
   border-radius: 5px;
 }
+@media(max-width:475px){
+  .form_input_support{
+    width: 230px;
+    justify-content: center;
+  }
+  
+}
 
-.youPay {
-  position: absolute;
-  left: 595px;
-  color: #9aa1b1;
-}
-.countru {
-  background-color: white;
-  position: absolute;
-  left: 805px;
-  top: 253px;
-  opacity: 1;
-  list-style: none;
-  width: 100px; /* ширина, которая вам нужна */
-  height: 120px; /* высота, которая вам нужна */
-  overflow-x: hidden;
-  overflow-y: scroll;
-  display: none;
-}
-.cripta {
-  background-color: white;
-  position: absolute;
-  left: 805px;
-  top: 323px;
-  opacity: 1;
-  list-style: none;
-  width: 100px; /* ширина, которая вам нужна */
-  height: 120px; /* высота, которая вам нужна */
-  overflow-x: hidden;
-  overflow-y: scroll;
-  display: none;
-}
-.countru_li,
-.cripta_li {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
-.countru_list_img {
-  width: 20px;
-  border-radius: 50px;
-  margin: 0px 10px;
-}
-.country_choise,
-.cripta_choise {
-  width: 112px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+// .countru {
+//   background-color: white;
+//   position: absolute;
+//   left: 805px;
+//   top: 253px;
+//   opacity: 1;
+//   list-style: none;
+//   width: 100px; /* ширина, которая вам нужна */
+//   height: 120px; /* высота, которая вам нужна */
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+//   display: none;
+// }
+// .cripta {
+//   background-color: white;
+//   position: absolute;
+//   left: 805px;
+//   top: 323px;
+//   opacity: 1;
+//   list-style: none;
+//   width: 100px; /* ширина, которая вам нужна */
+//   height: 120px; /* высота, которая вам нужна */
+//   overflow-x: hidden;
+//   overflow-y: scroll;
+//   display: none;
+// }
+// .countru_li,
+// .cripta_li {
+//   display: flex;
+//   align-items: center;
+//   margin-top: 10px;
+// }
+// .countru_list_img {
+//   width: 20px;
+//   border-radius: 50px;
+//   margin: 0px 10px;
+// }
+// .country_choise,
+// .cripta_choise {
+//   width: 112px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 #descript_support {
   width: 375px;
   height: 50px;
@@ -77,11 +100,25 @@
     border: 1px solid #e9ebf2;
   }
 }
+@media(max-width:475px){
+  #descript_support{
+    width: 230px;
+  }
+  
+}
 .support_div_button {
   width: 380px;
   display: flex;
   justify-content: end;
 }
+@media(max-width:475px){
+  .support_div_button{
+   justify-content: center;
+   width: 230px;
+  }
+  
+}
+
 .support_button {
   margin: 10px 0px;
   width: 150px;
@@ -91,10 +128,26 @@
   background-color: rgb(32, 95, 237);
   @include color;
 }
+
 .support_div_p {
   display: flex;
   justify-content: start;
 }
 .support_p {
   margin: 0px;
+}
+@media(max-width:475px){
+  .support_div_p{
+    justify-content: start;
+  }
+}
+@media(max-width:475px){
+  .modal_support{
+    width: 300px;
+  }
+}
+@media(max-width:350px){
+  .modal_support{
+    width: 180px;
+  }
 }

@@ -6,9 +6,10 @@
         color:white;
     }
     .modal{
+        width: 100%;
         max-width: 416px;
         max-height: 645px;
-        margin: 40px 551px 80px 551px;
+        margin: 0 auto;
         padding: 40px 30px;
         display: flex;
         justify-content: center;
@@ -19,6 +20,16 @@
     
     .createAcounte_form{
         padding: 0px 20px;
+    }
+    @media(max-width:500px){
+        .createAcounte_form{
+            width: 300px;
+        }
+    }
+    @media(max-width:450px){
+        .createAcounte_form{
+            width: 230px;
+        }
     }
     .form_description{
         display: flex;
@@ -31,6 +42,16 @@
         width: 350px;
         height: 40px;
         border-radius: 5px;
+    }
+    @media(max-width:500px){
+        input{
+            width: 298px;
+        }
+    }
+    @media(max-width:450px){
+        input{
+            width: 230px;
+        }
     }
     #code{
         background-color: rgb(245, 241, 241);
@@ -48,15 +69,20 @@
         color:gray;
         font-weight: 600;
     }
-    .form_create_acount1{
-        border: none;
-        width: 350px;
-        height: 40px;
-        border-radius: 5px;
-        color:gray;
-        font-weight: 600;
-    margin-top: 10px;
+    @media(max-width:450px){
+        .form_create_acount{
+            width: 230px;
+        }
     }
+    // .form_create_acount1{
+    //     border: none;
+    //     width: 350px;
+    //     height: 40px;
+    //     border-radius: 5px;
+    //     color:gray;
+    //     font-weight: 600;
+    // margin-top: 20px;
+    // }
     .form_description_line{
         display: flex;
         align-items: center;
@@ -75,6 +101,17 @@
     
 
 }
+// @media(max-width:500px){
+//     .modal{
+//         // margin: 0 auto;
+// width: 100%;
+//         max-width: 300px;
+//         // margin: 20px;
+//         padding: 10px;
+//     }
+// }
+
+
 .form_button_social{
     display: flex;
     max-width: 100%;
@@ -104,3 +141,17 @@
 }
     
 }
+@media(max-width:500px){
+    .modal{
+        padding: 0px;
+        // margin: 0px;
+    }
+}
+@media(max-width:440px){
+    .modal{
+        width: 300px;
+        padding: 0px;
+        // margin: 0px;
+    }
+}
+

@@ -1,0 +1,91 @@
+.user_personeArea{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.user_balance{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(240, 234, 234);
+    padding: 20px;
+
+    .balanse{
+        display: flex;
+        flex-direction: column;
+        }
+        .balanse_p{
+            font-weight: 600;
+            margin: 10px 0px 10px 0px;
+        }
+        .balanse_number{
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px 0px 10px 0px;
+        }
+        .bayCriptu{
+            .button_byCriptu{
+            
+                height: 50px;
+                width: 160px;
+                @include border;
+                background-color:rgb(32,95,237);
+                @include color;
+
+            
+        }
+      @media(max-width: 660px){
+        .button_byCriptu{
+            width: 80px;
+            font-size: 10px;
+        }
+      }
+        }
+}
+.user_active{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid rgb(240, 234, 234);
+    padding: 20px;
+    margin-top: 20px;
+}
+.button_addCript{
+    display: flex;
+}
+@media(max-width: 660px){
+    .button_addCript{
+        flex-direction: column;
+    }
+}
+.add,
+.take{
+    border:1px solid rgb(240, 234, 234);
+    background-color:white;
+    border-radius:5px;
+    height: 35px;
+    margin-top: 10px;
+}
+@media(max-width:660px){
+    .user_personeArea{
+        width: 400px;
+    }
+}
+@media(max-width:460px){
+    .user_personeArea{
+        width: 300px;
+    }
+    
+}
+@media(max-width:350px){
+    .user_personeArea{
+        width: 250px;
+    }
+    
+}

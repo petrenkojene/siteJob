@@ -6,10 +6,18 @@
   display: flex;
   margin: 15px 0px;
   border-radius: 5px;
+  justify-content: space-between;
+  position: relative;
   
 }
+.cocon{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items:start;
+}
 #youPay_input {
-  width: 214px;
+  max-width: 214px;
   height: 22px;
   padding: 24px 11px 8px 11px;
   border: none;
@@ -26,18 +34,26 @@
   font-size: 20px;
   color: #9aa1b1;
 }
-
+@media(max-width:420px){
+  #youPay_input{
+width: 150px;
+  }
+  .form_input{
+    justify-content: center;
+  }
+}
 .youPay {
-  position: absolute;
-  left: 595px;
+  position: relative;
+  top: 20px;
   color: #9aa1b1;
 }
 .countru {
   background-color: white;
   position: absolute;
-  left: 805px;
-  top: 253px;
+  left: 210px;
+  top: 55px;
   opacity: 1;
+  z-index: 20;
   list-style: none;
   width: 100px; /* ширина, которая вам нужна */
   height: 120px; /* высота, которая вам нужна */
@@ -53,11 +69,16 @@
     background-color: #aeb1b3;
 }
 }
+@media(max-width:420px){
+  .countru{
+    left:150px;
+  }
+}
 .cripta {
   background-color: white;
   position: absolute;
-  left: 805px;
-  top: 323px;
+  left: 210px;
+  top: 55px;
   opacity: 1;
   list-style: none;
   width: 100px;
@@ -73,6 +94,11 @@
   &::-webkit-scrollbar-thumb {
     background-color: #aeb1b3;
 }
+}
+@media(max-width:420px){
+  .cripta{
+    left:150px;
+  }
 }
 .countru_li,
 .cripta_li {
@@ -91,6 +117,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .bay_button {
   width: 350px;
@@ -99,4 +126,10 @@
   @include border;
   background-color: rgb(32, 95, 237);
   @include color;
+}
+
+@media(max-width:410px){
+  .bay_button{
+    width: 284px;
+  }
 }
