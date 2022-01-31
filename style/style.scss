@@ -7,16 +7,42 @@
 @import "_support";
 @import "_enterUser";
 @import "_personeArea";
-@font-face {
-    font-family: "HarmonyOS Sans";
-    src:  url("../fonts/HarmonyOS_Sans_Regular.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
+@font-face{
+
+  font-family: 'MyWebFont';
+  
+  src: url('../fonts/FontsFree-Net-SFProText-Regular.ttf'),  
+    
+  url('../fonts/FontsFree-Net-SFProText-Regular.ttf') format('truetype');
+  
+  
+  
+  font-weight: normal;
+  
+  font-style: normal;
+  
   }
 
+  @font-face{
+
+    font-family: 'second';
+    
+    src: url('../fonts/HarmonyOS_Sans_Regular.ttf'),  
+      
+    url('../fonts/HarmonyOS_Sans_Regular.ttf') format('truetype');
+    
+    
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+  
 body{
     max-width: 100%;
     margin: 0px;
-    font-family: 'Rubik', sans-serif;
+    font-family: second, sans-serif;
+    // font-weight: 600;
 
 }

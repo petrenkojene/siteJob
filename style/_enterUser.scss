@@ -17,6 +17,7 @@
         text-align: center;
         background-color:#ffffff;
         border-radius:5px;
+        margin-bottom: 50px;
     .createAcounte_form{
         padding: 0px 20px;
         display: flex;
@@ -31,11 +32,13 @@
       @media(max-width:500px){
           .modal_enterAcount{
           width: 400px;
+          margin-bottom: 50px;
           }
       }
       @media(max-width:475px){
         .modal_enterAcount{
             width: 300px;
+            margin-bottom: 50px;
             }
     }
     .form_description{
@@ -135,5 +138,6 @@ width: 100%;
         max-width: 300px;
         // margin: 20px;
         padding: 10px;
+        margin-bottom: 50px;
     }
 }

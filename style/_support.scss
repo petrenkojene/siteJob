@@ -19,13 +19,13 @@
 @media(max-width:475px){
   .support_form{
     justify-content: center;
-    align-items:center;
+    // align-items:center;
   }
 }
 @media(max-width:350px){
   .support_form{
     justify-content: center;
-    align-items:center;
+    // align-items:center;
     width: 230px;
   }
 }
@@ -139,6 +139,7 @@
 @media(max-width:475px){
   .support_div_p{
     justify-content: start;
+    align-items:start;
   }
 }
 @media(max-width:475px){

@@ -1,6 +1,12 @@
 .bay {
   text-align: start;
 }
+.bay_form{
+  
+    padding: 0px 20px;
+}
+
+
 .form_input {
   border: 1px solid #e9ebf2;
   display: flex;
@@ -15,8 +21,10 @@
   flex-direction: column;
   justify-content: end;
   align-items:start;
+  flex: 0 1 60%;
 }
-#youPay_input {
+#youPay_input,
+#youPay_input1 {
   max-width: 214px;
   height: 22px;
   padding: 24px 11px 8px 11px;
@@ -118,6 +126,7 @@ width: 150px;
   align-items: center;
   justify-content: center;
   position: relative;
+  flex: 0 1 40%
 }
 .bay_button {
   width: 350px;

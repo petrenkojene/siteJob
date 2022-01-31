@@ -20,43 +20,54 @@
     <div class="wrapper">
       <div class="header">
         <header class="header_anoterCript">
-          <div class="header_left_menu">
+          
             <a href="index.html">
             <img
-              src="img/header1.png"
+              src="img/header2.png"
               alt=""
             />
           </a>
             <ul class="header_ul">
-              <li class="header_list">
+             
+              <li class="header_list vertical_line hide_list">
+                <div class="vertical"></div>
                 <a href="bayCript.html" class="header_list_link1">Купить криптовалюту</a>
               </li>
-              <li class="header_list">
+              <li class="header_list hide_list">
                 <a href="anotherCript.html" class="header_list_link1">Рынки</a>
               </li>
-              <li class="header_list">
+              <li class="header_list hide_list">
                 <a href="support.html" class="header_list_link1">Поддержка</a>
               </li>
-            </ul>
-          </div>
-          <div class="header_right_menu">
-            <ul class="header_ul">
-              <li class="header_list">
+            
+          <li class="header_list zero"></li>
+          
+            
+              <li class="header_list enter hide_list">
                 <a href="enterPage.html" class="header_list_link1">Войти</a>
               </li>
-              <li class="header_list">
+              <li class="header_list create_border">
                 <a href="createAcount.html" class="header_list_link1 createAcount">Создать аккаунт</a>
               </li>
+              <!-- <li class="gamburger">
+                <div class="gamburger_div">
+                  <ul class="gamburger_list">
+                    <li class="gamburger_list_li"><a href="bayCript.html" class="header_list_link1">Купить криптовалюту</a></li>
+                    <li class="gamburger_list_li"><a href="anotherCript.html" class="header_list_link1">Рынки</a></li>
+                    <li class="gamburger_list_li"><a href="createAcount.html" class="header_list_link1 createAcount">Создать аккаунт</a></li>
+                    <li class="gamburger_list_li"><a href="support.html" class="header_list_link1">Поддержка</a></li>
+                  </ul>
+                </div>
+              </li> -->
             </ul>
-          </div>
+          
         </header>
         <h2 class="header_h2">
-          Криптовалютная биржа <br />
-          во всём её разнообразии.
+          Самый простой путь <br />
+          в мир криптовалют
         </h2>
         <p class="header_p">
-          OKEx строит максимально гибкую криптовалютную биржу для трейдеров
-          любого уровня
+          Максимально удобная криптовалютная биржа для трейдеров любого уровня
         </p>
       </div>
       <div class="header_form">
@@ -65,7 +76,7 @@
           <button class="header_button">Начать</button>
         </form>
         <p class="header_p_12">
-          Получите до $10 после первой покупки криптовалюты на $100 или больше.
+          Получите бонус до<span class="green"> $30</span> после первой покупки криптовалюты на $100 или больше
         </p>
       </div>
       
@@ -87,18 +98,18 @@
           </li>
         </ul>
       </div> -->
-      <table class="table table-hover">
+      <table class="table-hover">
         <thead>
-          <tr>
-            <th scope="col">Название</th>
-            <th scope="col">Цена</th>
-            <th scope="col" class="hide_price">Изм. (сегодня)</th>
-            <th scope="col" class="hide">График</th>
-            <th scope="col">К торгам</th>
+          <tr class="main_tr">
+            <th class ="tabl_descript" style="text-align:start;">Название</th>
+            <th class = 'th_price'>Цена</th>
+            <th class="hide_price">Изм. (сегодня)</th>
+            <th class="hide" style="text-align: center;">График</th>
+            <th >К торгам</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript">
               <a href="#" class="table_link"
                 ><img
@@ -110,10 +121,10 @@
             </td>
             <td class="BTC_price price"></td>
             <td class="BTC_price_change change hide_price"></td>
-            <td class="hide"><img class="diagram_BTC" src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1643103600" alt=""></td>
+            <td class="hide diagram_BTC"></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript">
                 <a href="#" class="table_link"
                 ><img
@@ -129,34 +140,34 @@
             <td class="hide"><img class="diagram_ETH" src="https://images.cryptocompare.com/sparkchart/ETH/USD/latest.png?ts=1643103600" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript">
                 <a href="#" class="table_link"
                 ><img
-                  src="https://static.okx.com/cdn/oksupport/asset/currency/icon/okb.png?x-oss-process=image/format,webp"
+                  src="https://static.okx.com/cdn/assets/imgs/221/C9D22900D45113CB.png?x-oss-process=image/format,webp"
                   alt=""
                 />
-                <span class="table_span"> OKB</span> OKB</a
+                <span class="table_span">  SOL</span> Solana</a
               ></td>
-            <td class="OKB_price price"></td>
-            <td class="OKB_price_change change hide_price"></td>
-            <td class="hide"><img class="diagram_OKB" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
+            <td class="SOL_price price"></td>
+            <td class="SOL_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_SOL" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
-                  src="https://static.okx.com/cdn/oksupport/asset/currency/icon/okt.png?x-oss-process=image/format,webp"
+                  src="https://static.okx.com/cdn/assets/imgs/221/7FC9A7DAFF16AEF0.png?x-oss-process=image/format,webp"
                   alt=""
                 />
-                <span class="table_span"> OKT</span> Токен OEC</a
+                <span class="table_span"> XRP</span> XRP</a
               ></td>
-            <td class="OKT_price price"></td>
-            <td class="OKT_price_change change hide_price"></td>
-            <td class="hide"><img class="diagram_OKT" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
+            <td class="XRP_price price"></td>
+            <td class="XRP_price_change change hide_price"></td>
+            <td class="hide"><img class="diagram_XRP" src="	https://images.cryptocompare.com/sparkchart/OKB/USD/latest.png?ts=1643104800" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/ltc.png?x-oss-process=image/format,webp"
@@ -169,7 +180,7 @@
             <td class="hide"><img class="diagram_LTC" src="https://images.cryptocompare.com/sparkchart/LTC/USD/latest.png?ts=1643106000" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/dot.png?x-oss-process=image/format,webp"
@@ -182,7 +193,7 @@
             <td class="hide"><img class="diagram_DOT" src="https://images.cryptocompare.com/sparkchart/DOT/USD/latest.png?ts=1643106000" alt=""></td>
             <td class="tabl_bay"><button>Купить</button></td>
           </tr>
-          <tr>
+          <tr class = "main_tr">
             <td class ="tabl_descript"><a href="#" class="table_link"
                 ><img
                   src="https://static.okx.com/cdn/oksupport/asset/currency/icon/ada.png?x-oss-process=image/format,webp"
@@ -197,7 +208,7 @@
           </tr>
         </tbody>
       </table>
-      <a class="link_after_table" href="anotherCript.html">Посмотреть цены на другие популярные криптовалюты ></a>
+      <a class="link_after_table" href="anotherCript.html">Посмотреть цены на другие популярные криптовалюты</a>
       <div class="mainManu_description">
         <h2 class="after_tabl">Лидер по количеству торговых пар и <br>
             возможностям для трейдеров со всего мира      
@@ -224,8 +235,9 @@
         <form action="" class="header_form_form">
           <input type="tel" name="tel" id="tel" placeholder="Email/телефон" />
           <button class="header_button">Начать</button>
-          <p class="mainMenu_footer_p">Уже есть аккаунт? <a  class= "mainMenu_footer_link" href="/pages/enterPage.html">Войти</a></p>
+          
         </form>
+        <p class="mainMenu_footer_p_enter">Уже есть аккаунт? <a  class= "mainMenu_footer_link" href="/pages/enterPage.html">Войти</a></p>
       </div>
 </div>
     </div>

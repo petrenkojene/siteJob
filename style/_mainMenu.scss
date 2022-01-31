@@ -15,11 +15,45 @@
         
     }
 }
+thead,
+.main_tr{
+    border-bottom: 1px solid #ebebeb;
+    // display: flex;
+    // align-items: center;
+}
+td{
+    height: 63px;
+}
 .table-hover{
-
-    max-width: 1140px;
+margin-top: 20px;
+    max-width: 1016px;
     .price{
-        font-weight: bold;
+        width: 203px;
+        text-align: end;
+        vertical-align: middle;
+    
+    //  padding: 20px;
+        font-size: 16px;
+        color:#000000
+    }
+    .th_price{
+        display: flex;
+        justify-content: end;
+        width: 203px;
+        align-content: center;
+    }
+    .hide_price{
+        text-align: end;
+        width: 153px;
+    }
+    
+    .tabl_bay{
+        display: flex;
+        justify-content: end;
+        align-items:center;
+    }
+    th{
+        text-align: end;
     }
     @media(max-width:375px){
         .price{
@@ -35,16 +69,32 @@
     position: sticky;
     }
     button{
-        background-color:white;
-        border: none;
-        border-radius:5px;
+      ;
+      font-size: 14px;
+      font-weight: 400;
+      color: #3d3d3d;
+      cursor: pointer;
+      
+    border-radius: 4px;
         height:32px;
         width: 72px;
-        &:hover{
-            background-color:rgb(10, 128, 10);
+        transition: background-color .25s;
+       
+        
+           &:hover{ background-color:#23c28d;
             color:white;
-        }
+            
+           }
     }
+}
+th{
+    color:#929292;
+    font-size: 12px;
+}
+.hide{
+    width: 203px;
+    text-align: center;
+    padding: 0px 0px 0px 35px;
 }
 @media(max-width:884px){
     .table{
@@ -59,7 +109,7 @@
     display: flex;
 }
 .table_link{
-    color:grey;
+    color:#BDBDBD;
     text-decoration: none;
 }
 .table_span{
@@ -69,8 +119,10 @@
 .link_after_table{
     flex:0 1 100%;
     text-decoration:  none;
-    color:blue;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2d60e0;
+    line-height: 22px;
 }
 @media(max-width:507px){
     .link_after_table{
@@ -87,13 +139,17 @@
 }
 .tabl_descript{
     width: 530px;
+
 }
 .tabl_bay{
-    width: 100px;
+    width: 80px;
 }
 .after_tabl{
     font-weight: 900;
     font-size: 38px;
+    margin: 0px 102px;
+    padding: 0px 12px;
+    line-height: 46px;
 }
 @media(max-width:507px){
     .hide{
@@ -111,7 +167,11 @@
 }
 .mainManu_description_p{
     font-size: 14px;
-    color: grey;
+    line-height: 20px;
+    text-align: center;
+    color: #3f475a;
+    padding: 0px 12px;
+    margin: 16px 102px 0px 102px;
 }
 @media(max-width:450px){
     .mainManu_description_p{
@@ -121,19 +181,24 @@
 .mainMenu_coins{
     display: flex;
     width: 100%;
-    padding: 0px 135px;
+    padding: 0px 135px 100px 135px;
+    margin-top: 36px;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 .coins{
     text-align: center;
     .coins_span_blue{
-    color:blue;
-    font-size: 36px;
-    line-height: 28px;
-    font-weight: bold;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 58px;
+        color: #205fec;
     .coins_span{
+        font-weight: 500;
         font-size: 14px;
-        color:black;
+        line-height: 17px;
+        color: #1f2533;
+    }
     }
    
 }
@@ -159,6 +224,13 @@ margin: 15px;
     }
 
 }
+.header_form_form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    margin:32px 0px  30px 0px;
+}
 @media(max-width:884px){
     .mainMenu_footer{
         padding: 0px 20px;
@@ -175,11 +247,54 @@ margin: 15px;
 
 }
 }
+@media(max-width:768px){
+    .header_form_form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 8px;
+    
+    #tel{
+        font-size: 16px;
+        padding: 0px 20px;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+       @include border;
+       
+    
+    }
+    .header_button{
+        width: 100%;
+        padding: 0px 20px;
+        margin: 0px 0px 50px 0px;
+    }
+}
+}
+.mainMenu_footer_p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 64px;
+    margin-bottom: 10px;
+    color: #3f475a;
+}
 .mainMenu_footer_link{
-    color:black;
+    color: #1f2533;
+    text-decoration: underline;
+    margin-left: 8px;
 }
+
 .main_footer_h2{
-    font-weight: 900;
-    font-size: 38px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
 }
+.mainMenu_footer_p_enter{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #9aa1b1;
 }

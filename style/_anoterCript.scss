@@ -16,6 +16,9 @@
     cursor: pointer;
   }
 }
+// .zero{
+//   width: 750px;
+// }
 @media(max-width:750px){
   .anotherCript_burger{
     flex-direction: column;
@@ -39,10 +42,8 @@
   }
 }
 .table-hover{
-    max-width: 1016px;
-    .price{
-        font-weight: bold;
-    }
+   
+    
     img{
         width: 28px;
         flex: 0 1 80%;

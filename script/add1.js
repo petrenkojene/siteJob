@@ -68,13 +68,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
         function change(selector, item) {
           if (item < 0) {
-            document.querySelector(selector).style.color = "red";
-          } else {
-            document.querySelector(selector).style.color = "green";
-          }
-          document.querySelector(selector).style.fontWeight = 700;
-          document.querySelector(selector).innerHTML = `
+            document.querySelector(selector).style.color = "#E35E5E";
+            document.querySelector(selector).innerHTML = `
           ${item}%`;
+          } else {
+            document.querySelector(selector).style.color = "#008000";
+            document.querySelector(selector).innerHTML = `+
+          ${item}%`;
+          }
         }
         change(".BTC_price_change", +product.DISPLAY.BTC.USD.CHANGEPCTDAY);
         change(".ETH_price_change", +product.DISPLAY.ETH.USD.CHANGEPCTDAY);
